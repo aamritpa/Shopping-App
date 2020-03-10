@@ -6,7 +6,10 @@ import {Recipe} from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipes: Recipe[]=[
+  public recipes: Recipe[]=[
+    new Recipe('Test','Simply atest','https://i.ndtvimg.com/i/2015-10/urlai-roast_625x350_71444723419.jpg'),
+    new Recipe('Test','Simply atest','https://i.ndtvimg.com/i/2015-10/urlai-roast_625x350_71444723419.jpg'),
+    new Recipe('Test','Simply atest','https://i.ndtvimg.com/i/2015-10/urlai-roast_625x350_71444723419.jpg'),
     new Recipe('Test','Simply atest','https://i.ndtvimg.com/i/2015-10/urlai-roast_625x350_71444723419.jpg')
   ];
   constructor() { }
